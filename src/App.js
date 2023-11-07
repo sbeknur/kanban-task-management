@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Chat from "./Chat";
 import EmptyBoard from './components/EmptyBoard';
 import boardsSlice from "./redux/boardsSlice";
 
@@ -25,6 +26,7 @@ function App() {
           setIsBoardModalOpen={setIsBoardModalOpen}
           isBoardModalOpen={isBoardModalOpen}
         />
+        <Chat/>
         </>
         :
         <>
