@@ -3,14 +3,16 @@
     right: 0;
     bottom: 0;
     height: 300px;
-    width: 400px;
+    max-width: 400px;
     background: rgb(255, 255, 255);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     
     overflow: hidden;
+
+    box-shadow: 0 10px 15px -3px #364e7e1a;
 }
 
 .chats {

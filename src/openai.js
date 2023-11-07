@@ -1,6 +1,6 @@
 const { Configuration, OpenAIApi } = require("openai");
 
-const configuration = new Configuration({ apiKey: "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" });
+const configuration = new Configuration({ apiKey: "" });
 delete configuration.baseOptions.headers['User-Agent'];
 const openai = new OpenAIApi(configuration);
 

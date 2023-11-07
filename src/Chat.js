@@ -8,7 +8,7 @@ function Chat() {
     const [input, setInput] = useState("");
     const [messages, setMessages] = useState([
         {
-            text: "Hi, I am ChatGPT.",
+            text: "Hi, I am Manage Assistant. How can I help you?",
             isBot: true,
         },
     ]);
